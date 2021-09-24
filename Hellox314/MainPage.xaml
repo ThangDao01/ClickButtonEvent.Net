@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Hellox314.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Hellox314"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="ButtonClickShow" FontSize="50" Content="Button" Margin="492,221,0,0" VerticalAlignment="Top" Height="81" Width="353" Click="Button_Click"/>
+        <TextBlock x:Name="TextAbcxyz"  HorizontalAlignment="Left" FontSize="50" Margin="586,459,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="156" Width="495"/>
+
+    </Grid>
+</Page>
